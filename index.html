@@ -3,13 +3,83 @@
 <html>
 <head>
   <title>GlowLux</title>
-</head>
-<body style="background:black; color:white; text-align:center; font-family:Arial;">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: black;
+      color: white;
+    }
 
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      opacity: 0.8;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: gold;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .products {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .card {
+      display: inline-block;
+      background: #111;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="hero">
   <h1>✨ GlowLux</h1>
   <p>Luxury Beauty Store</p>
+  <button class="btn">Shop Now</button>
+</div>
 
-  <button style="padding:10px 20px; font-size:16px;">Shop Now</button>
+<div class="products">
+  <h2>Featured Products</h2>
+
+  <div class="card">
+    <h3>Glow Serum</h3>
+    <p>$29</p>
+  </div>
+
+  <div class="card">
+    <h3>Luxury Cream</h3>
+    <p>$49</p>
+  </div>
+
+  <div class="card">
+    <h3>Face Oil</h3>
+    <p>$39</p>
+  </div>
+
+</div>
 
 </body>
 </html>
