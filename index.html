@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GlowLux</title>
+<title>GlowLux</title>
+<style>
+body {font-family:Arial; background:#000; color:#fff; margin:0; text-align:center;}
+h1 {margin:20px;}
+.products {display:flex; flex-wrap:wrap; justify-content:center;}
+.card {
+  background:#111;
+  margin:10px;
+  padding:15px;
+  width:250px;
+  border-radius:10px;
+}
+button {
+  padding:10px;
+  margin-top:10px;
+  cursor:pointer;
+}
+.review {color:gold; font-size:14px;}
+</style>
 </head>
 
-<body style="margin:0; font-family:Arial; background:black; color:white; text-align:center;">
+<body>
 
-<h1>✨ GlowLux</h1>
-<p>Luxury Skincare Store</p>
+<h1>✨ GlowLux Store</h1>
+<p>Premium Skincare Products</p>
 
-<hr>
+<div class="products">
 
-<h2>Our Products</h2>
+<!-- PRODUCT TEMPLATE (COPY THIS BLOCK TO ADD MORE) -->
 
-<!-- PRODUCT 1 -->
-<div style="margin:20px;">
-  <h3>Vitamin C Serum</h3>
-  <p>$109.00</p>
+<div class="card">
+<h3>Vitamin C Serum</h3>
+<p>$109.00</p>
+<p class="review">★★★★★ (245 reviews)</p>
 
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-    <input type="hidden" name="cmd" value="_xclick">
-    <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
-    <input type="hidden" name="item_name" value="Vitamin C Serum">
-    <input type="hidden" name="amount" value="109.00">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="submit" value="Buy Now" style="padding:10px 20px;">
-  </form>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+<input type="hidden" name="item_name" value="Vitamin C Serum">
+<input type="hidden" name="amount" value="109.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Buy Now">
+</form>
 </div>
 
-<!-- PRODUCT 2 -->
-<div style="margin:20px;">
-  <h3>Night Cream</h3>
-  <p>$129.99</p>
+<div class="card">
+<h3>Night Repair Cream</h3>
+<p>$129.99</p>
+<p class="review">★★★★★ (312 reviews)</p>
 
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-    <input type="hidden" name="cmd" value="_xclick">
-    <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
-    <input type="hidden" name="item_name" value="Night Cream">
-    <input type="hidden" name="amount" value="129.99">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="submit" value="Buy Now" style="padding:10px 20px;">
-  </form>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+<input type="hidden" name="item_name" value="Night Cream">
+<input type="hidden" name="amount" value="129.99">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Buy Now">
+</form>
 </div>
 
-<!-- PRODUCT 3 -->
-<div style="margin:20px;">
-  <h3>Face Scrub</h3>
-  <p>$105.50</p>
+<div class="card">
+<h3>Gold Face Mask</h3>
+<p>$119.00</p>
+<p class="review">★★★★★ (198 reviews)</p>
 
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-    <input type="hidden" name="cmd" value="_xclick">
-    <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
-    <input type="hidden" name="item_name" value="Face Scrub">
-    <input type="hidden" name="amount" value="105.50">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="submit" value="Buy Now" style="padding:10px 20px;">
-  </form>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+<input type="hidden" name="item_name" value="Gold Mask">
+<input type="hidden" name="amount" value="119.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Buy Now">
+</form>
 </div>
 
-</body>
-</html>
-
-  </div>
+</div>
 
 </body>
 </html>
